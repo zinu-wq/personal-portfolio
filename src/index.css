@@ -1,0 +1,201 @@
+@import "tailwindcss";
+
+
+/* GLOBAL */
+
+body{
+
+  margin:0;
+
+  font-family:"Inter", sans-serif;
+
+  background:#f8fafc;
+
+}
+
+
+
+/* MAIN PORTFOLIO BACKGROUND */
+
+.portfolio-bg{
+
+  min-height:100vh;
+
+  overflow:hidden;
+
+  position:relative;
+
+  isolation:isolate;
+
+
+  background:
+
+  radial-gradient(
+    circle at 10% 10%,
+    rgba(59,130,246,0.25),
+    transparent 35%
+  ),
+
+
+  radial-gradient(
+    circle at 90% 20%,
+    rgba(236,72,153,0.20),
+    transparent 35%
+  ),
+
+
+  radial-gradient(
+    circle at 50% 90%,
+    rgba(139,92,246,0.20),
+    transparent 40%
+  ),
+
+
+  linear-gradient(
+    135deg,
+    #ffffff,
+    #f8fafc
+  );
+
+}
+
+
+
+/* BACKGROUND BLUR SHAPES */
+
+.background-shape{
+
+  position:absolute;
+
+  border-radius:50%;
+
+  filter:blur(90px);
+
+  opacity:0.35;
+
+  z-index:0;
+
+  pointer-events:none;
+
+}
+
+
+
+/* BLUE GLOW */
+
+.shape-one{
+
+  width:450px;
+
+  height:450px;
+
+  background:#2563eb;
+
+  top:-150px;
+
+  left:-150px;
+
+}
+
+
+
+/* PINK GLOW */
+
+.shape-two{
+
+  width:500px;
+
+  height:500px;
+
+  background:#ec4899;
+
+  right:-200px;
+
+  top:400px;
+
+}
+
+
+
+/* PURPLE GLOW */
+
+.shape-three{
+
+  width:400px;
+
+  height:400px;
+
+  background:#8b5cf6;
+
+  bottom:-150px;
+
+  left:40%;
+
+}
+
+
+
+/* GLASS EFFECT CARD */
+
+.glass-card{
+
+  background:
+
+  rgba(255,255,255,0.60);
+
+
+  backdrop-filter:
+
+  blur(20px);
+
+
+  -webkit-backdrop-filter:
+
+  blur(20px);
+
+
+  border:
+
+  1px solid rgba(255,255,255,0.5);
+
+
+  box-shadow:
+
+  0 20px 50px rgba(0,0,0,0.08);
+
+
+  border-radius:25px;
+
+}
+
+
+
+/* SMOOTH SCROLL */
+
+html{
+
+  scroll-behavior:smooth;
+
+}
+
+
+
+/* REMOVE LINK DEFAULT STYLE */
+
+a{
+
+  text-decoration:none;
+
+}
+
+
+
+/* SECTION SPACING */
+
+section{
+
+  position:relative;
+
+  z-index:10;
+
+}
