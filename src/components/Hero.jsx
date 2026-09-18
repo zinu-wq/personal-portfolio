@@ -189,7 +189,7 @@ flex-wrap
 
 <a
 
-href="/Zarrin_Rahman_Zinat_Resume_.pdf"
+href="/Zarrin_Rahman_Zinat_Resume.pdf"
 
 download
 
