@@ -92,10 +92,6 @@ shadow-2xl
 
 </motion.div>
 
-
-
-
-
 {/* TEXT */}
 
 
@@ -176,13 +172,10 @@ leading-relaxed
 max-w-xl
 ">
 
-I build modern, responsive and scalable web applications
-using React.js, Next.js and modern technologies.
-
+I am a CSE student passionate about building modern,
+responsive web applications using React.js, JavaScript,
+Node.js and modern technologies.
 </p>
-
-
-
 
 
 <div className="
@@ -196,7 +189,7 @@ flex-wrap
 
 <a
 
-href="/cv.pdf"
+href="/Zarrin_Rahman_Zinat_Resume_.pdf"
 
 download
 
